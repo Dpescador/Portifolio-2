@@ -8,7 +8,7 @@
 
 /* Estilo do menu de navegação */
 nav {
-    position: fixed; /* Fixado no topo */
+    position: fixed;
     top: 0;
     width: 100%;
     background-color: #333;
@@ -40,12 +40,12 @@ nav ul li a:hover {
     border-radius: 5px;
 }
 
-.contato{
+.contato {
     display: inline-block;
     text-decoration: none;
     padding: 14px 40px;
-    background-image: linear-gradient(90deg, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%);    
-    font-size:14px; 
+    background-image: linear-gradient(90deg, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%);
+    font-size: 14px;
     border-radius: 30px;
     border-top-right-radius: 0;
     transition: 0.5s;
@@ -53,16 +53,14 @@ nav ul li a:hover {
     color: #ffffff;
 }
 
-.contato:hover{
+.contato:hover {
     border-top-right-radius: 30px;
     color: #222120;
 }
 
-
-
 /* Estilo das seções */
 section {
-    min-height: 100vh; /* Cada seção ocupa pelo menos a altura total da tela */
+    min-height: 100vh;
     padding: 50px;
     display: flex;
     justify-content: center;
@@ -74,10 +72,10 @@ section {
 /* Diferenciação visual para cada seção */
 #section1 {
     background-color: #eadeeb;
-    background-image: linear-gradient(45deg, #ffd18b 0%, #2BD2FF 52%, #3bfd8fe5 90%);    
+    background-image: linear-gradient(45deg, #ffd18b 0%, #2BD2FF 52%, #3bfd8fe5 90%);
 }
 
-.section1__inicio{
+.section1__inicio {
     width: 95rem;
     height: 50rem;
     padding: 50px;
@@ -86,37 +84,33 @@ section {
 
 .section1__inicio__sobre {
     display: flex;
-    flex-direction: column; /* Organiza o texto e os cards em coluna */
-    justify-content: space-between; /* Deixa o texto no topo e os cards no fim */
- /*   flex: 1; /* Ocupa o espaço restante */
+    flex-direction: column;
+    justify-content: space-between;
     width: 70%;
     margin-right: 20px;
 }
 
-
-.resumo{
+.resumo {
     margin-top: 10%;
     max-width: 100%;
 }
 
-.resumo h1{
+.resumo h1 {
     font-size: 70px;
     color: #222;
     text-align: start;
 }
 
-
-.resumo p{
+.resumo p {
     text-align: justify;
     margin: 10px 0 30px;
     color: #333;
     animation-delay: 0.5s;
 }
 
-
 .cards {
     display: flex;
-    justify-content: space-between; /* Espaça os cards de forma uniforme */
+    justify-content: space-between;
     margin-bottom: 70px;
 }
 
@@ -130,20 +124,19 @@ section {
 
 /* Estilo para o h1 dentro da div .card1 */
 .card1 h1 {
-    color: rgb(75, 72, 72);        /* Cor vermelha para o h1 */
-    font-weight: 900;  /* Peso da fonte 900 */
-    font-size: 2rem;   /* Tamanho da fonte (ajuste conforme necessário) */
+    color: rgb(75, 72, 72);
+    font-weight: 900;
+    font-size: 2rem;
 }
 
 /* Estilo para o p dentro da div .card1 */
 .card1 p {
-    color: #333;       /* Cor azul para o parágrafo */
-    font-weight: 600;  /* Peso da fonte 500 */
-    font-size: 1rem;   /* Tamanho da fonte (ajuste conforme necessário) */
+    color: #333;
+    font-weight: 600;
+    font-size: 1rem;
 }
 
-
-.section1__inicio__foto{
+.section1__inicio__foto {
     width: 50%;
     height: 98%;
     padding: 50px;
@@ -152,7 +145,7 @@ section {
     align-items: center;
 }
 
-.foto{
+.foto {
     width: 50%;
     height: 98%;
     padding: 50px;
@@ -161,45 +154,18 @@ section {
     background-color: #2de27e7c;
 }
 
-.foto .foto__anexa{
-    border-radius: 10%; 
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#section2 {
-
-
+.foto .foto__anexa {
+    border-radius: 10%;
 }
 
 
 #section3 {
-    background-color: #FBAB7E;
-    background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+    background-color: #eadeeb;
+    background-image: linear-gradient(45deg, #ffac8b 0%, #ffbc2b 52%, #c9fd3be5 90%);
 }
 
-#section4 {
-
-}
 
 /* Rolagem suave ao clicar nos links */
 html {
     scroll-behavior: smooth;
 }
-
-
