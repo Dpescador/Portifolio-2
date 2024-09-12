@@ -74,14 +74,119 @@ section {
 /* Diferenciação visual para cada seção */
 #section1 {
     background-color: #eadeeb;
-    background-image: linear-gradient(45deg, #ffd18b 0%, #2BD2FF 52%, #3bfd8fe5 90%);
-    
+    background-image: linear-gradient(45deg, #ffd18b 0%, #2BD2FF 52%, #3bfd8fe5 90%);    
 }
+
+.section1__inicio{
+    width: 95rem;
+    height: 50rem;
+    padding: 50px;
+    display: flex;
+}
+
+.section1__inicio__sobre {
+    display: flex;
+    flex-direction: column; /* Organiza o texto e os cards em coluna */
+    justify-content: space-between; /* Deixa o texto no topo e os cards no fim */
+ /*   flex: 1; /* Ocupa o espaço restante */
+    width: 70%;
+    margin-right: 20px;
+}
+
+
+.resumo{
+    margin-top: 10%;
+    max-width: 100%;
+}
+
+.resumo h1{
+    font-size: 70px;
+    color: #222;
+    text-align: start;
+}
+
+
+.resumo p{
+    text-align: justify;
+    margin: 10px 0 30px;
+    color: #333;
+    animation-delay: 0.5s;
+}
+
+
+.cards {
+    display: flex;
+    justify-content: space-between; /* Espaça os cards de forma uniforme */
+    margin-bottom: 70px;
+}
+
+.card1 {
+    background-color: #f1efea77;
+    padding: 25px;
+    border-radius: 8px;
+    text-align: center;
+    width: 25%;
+}
+
+/* Estilo para o h1 dentro da div .card1 */
+.card1 h1 {
+    color: rgb(75, 72, 72);        /* Cor vermelha para o h1 */
+    font-weight: 900;  /* Peso da fonte 900 */
+    font-size: 2rem;   /* Tamanho da fonte (ajuste conforme necessário) */
+}
+
+/* Estilo para o p dentro da div .card1 */
+.card1 p {
+    color: #333;       /* Cor azul para o parágrafo */
+    font-weight: 600;  /* Peso da fonte 500 */
+    font-size: 1rem;   /* Tamanho da fonte (ajuste conforme necessário) */
+}
+
+
+.section1__inicio__foto{
+    width: 50%;
+    height: 98%;
+    padding: 50px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.foto{
+    width: 50%;
+    height: 98%;
+    padding: 50px;
+    display: flex;
+    border-radius: 10%;
+    background-color: #2de27e7c;
+}
+
+.foto .foto__anexa{
+    border-radius: 10%; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #section2 {
 
 
 }
+
 
 #section3 {
     background-color: #FBAB7E;
