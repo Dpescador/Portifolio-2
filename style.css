@@ -12,7 +12,7 @@ nav {
     top: 0;
     width: 100%;
     background-color: #333;
-    padding: 10px 10%;
+    padding: 5px 5%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -76,7 +76,7 @@ section {
 }
 
 .section1__inicio {
-    width: 95rem;
+    width: 80rem;
     height: 50rem;
     padding: 50px;
     display: flex;
@@ -164,6 +164,10 @@ section {
     background-image: linear-gradient(45deg, #ffac8b 0%, #ffbc2b 52%, #c9fd3be5 90%);
 }
 
+#section5 {
+    background-color: #eadeeb;
+    background-image: linear-gradient(45deg, #ffd18b 0%, #2BD2FF 52%, #3bfd8fe5 90%);
+}
 
 /* Rolagem suave ao clicar nos links */
 html {
